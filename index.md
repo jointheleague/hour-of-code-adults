@@ -14,8 +14,8 @@ Joke: Make a pop-up that tells a joke and a separate one for the punchline.
 Example code:
 
 ```js
-alert("why did the chicken cross the road")
-alert("to get to the other side")
+alert("why did the chicken cross the road");
+alert("to get to the other side");
 ```
 
 
@@ -29,8 +29,8 @@ Greeter: Ask the user their name, then use another pop-up to say "Hi <name>!"
 Example code:
 
 ```js
-var name = prompt("What is your name?")
-alert("Hi " + name + "!")
+var name = prompt("What is your name?");
+alert("Hi " + name + "!");
 ```
 
 
@@ -68,7 +68,7 @@ var MadlibsOfTheAmazon = {
 
   }
 }
-MadlibsOfTheAmazon.main()
+MadlibsOfTheAmazon.main();
 ```
 
 
@@ -92,7 +92,7 @@ var WorldDomination = {
   }
 }
 
-WorldDomination.main()
+WorldDomination.main();
 ```
 
 
@@ -105,7 +105,7 @@ Recipe:
 var Magic8Ball = {
 // 1. Make a main method that includes all the steps below….
 
-    // 2. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * (4 - 0))"
+    // 2. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * (4 - 0));"
 
     // 3. Print out this variable
 
@@ -129,5 +129,6 @@ var Magic8Ball = {
   }
 
 }
-Magic8Ball.main()
+Magic8Ball.main();
 ```
+
