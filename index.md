@@ -1,5 +1,6 @@
-Hour of Code San Diego
-======================
+---
+layout: default
+---
 
 TODO: Add intro
 
