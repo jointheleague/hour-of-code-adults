@@ -5,5 +5,5 @@ Based on code recipes from League of Amazing Developers
 
 Files:
 
-- [homepage][index.md]
-- [answer key][answers.md]
+- [homepage](index.md)
+- [answer key](answers.md)
