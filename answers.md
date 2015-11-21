@@ -18,11 +18,11 @@ var place = prompt("Please enter a place", "Paris");
 
 // Fit the user's words into this sentence, and save it in a String:
 var output = "Piranhas are more " + adjective +
-  " during the day, so cross the river at night. Piranhas are attracted to fresh " +
-  liquid + " and will most likely take a bite out of your " +
-  bodyPart + " if you " + verb +
-  ". Whatever you do, if you have an open wound, try to find another way to get back to the " +
-  place + ". Good luck!";
+    " during the day, so cross the river at night. Piranhas are attracted to fresh " +
+    liquid + " and will most likely take a bite out of your " +
+    bodyPart + " if you " + verb +
+    ". Whatever you do, if you have an open wound, try to find another way to get back to the " +
+    place + ". Good luck!";
 
 // Make a pop-up for the final story. You can use \n to go to the next line.
 alert(output);
@@ -38,10 +38,10 @@ var answer = prompt("Do you know how to write code?");
 
 // 2. If they say "yes", tell them they will rule the world.
 if(answer == "yes"){
-  alert("You will rule the world!!");
+    alert("You will rule the world!!");
 } else {
 // 3. Otherwise, wish them good luck finding a job.
-  alert("Good luck finding a job");
+    alert("Good luck finding a job");
 }
 ```
 
@@ -61,12 +61,12 @@ var question = prompt("Please enter your question");
 
 // 4. If the random number is 0
 if (random === 0) {
-  alert("Yes");
+    alert("Yes");
 } else if (random === 1) {
-  alert("No");
+    alert("No");
 } else if (random === 2) {
-  alert("Maybe you should ask Google?");
+    alert("Maybe you should ask Google?");
 } else {
-  alert("Your mom says " + question);
+    alert("Your mom says " + question);
 }
 ```
