@@ -49,8 +49,6 @@ alert("Hi " + name + "!");
 Madlibs Of the Amazon
 ---------------------
 
-If less than 30 minutes into workshop, do madlibs. Otherwise, skip and do world domination next.
-
 Recipe:
 
 ```js
@@ -82,7 +80,9 @@ Recipe:
 World Domination
 ----------------
 
-TODO: Explain if/else
+**Teacher note**: If less than 30 minutes remaining, do world domination. Otherwise, skip this one.
+
+TODO: Explain if/else (write out an if statement on the white board)
 
 TODO: Show how to generate a random number
 
