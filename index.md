@@ -4,12 +4,18 @@ layout: default
 
 TODO: Add intro
 
+
 Joke
 ----
 
-TODO: Show how to use pop-ups (alerts)
+Alert boxes are little dialog windows that pop up.  Alert boxes have an OK button that you can press to make them disappear.
 
-Joke: Make a pop-up that tells a joke and a separate one for the punchline.
+Let's make a program that tells a joke.
+
+We'll have two things in this program:
+
+1. An alert that tells the setup for the joke (we'll show this first)
+2. An alert that tells the punchline
 
 Example code:
 
@@ -18,11 +24,17 @@ alert("why did the chicken cross the road");
 alert("to get to the other side");
 ```
 
+To make an alert we type `alert` and then inside parenthesis we put some text inside a string.
+
+Strings are the places you put text in your program.  We use double quotes around text to make strings.
+
+Every command in our program ends with a semicolon.
+
 
 Greeter
 -------
 
-TODO: Explain variables and prompts
+TODO: Explain variables, prompts, and string concatenation
 
 Greeter: Ask the user their name, then use another pop-up to say "Hi <name>!"
 
