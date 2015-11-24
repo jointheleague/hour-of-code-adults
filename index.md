@@ -114,12 +114,22 @@ Recipe:
 Magic 8 Ball
 ------------
 
-TODO: Show how to generate a random number
+How can we generate random numbers?
+
+We can generate a random number by using `Math.random()`.  This will give us a decimal number between 0 and 1.
+
+But we want a whole number between two other numbers.
+
+We can multiply our number by 4 to get a random number between 0 and 4 and then we can use the `Math.floor` function to round it so we'll get either `0`, `1`, or `3`:
+
+```js
+var random = Math.floor(Math.random() * 4);
+```
 
 Recipe:
 
 ```js
-// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * (4 - 0));"
+// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * 4);"
 
 // 2. Print out this variable
 
