@@ -26,17 +26,17 @@ alert("to get to the other side");
 
 To make an alert we type `alert` and then inside parenthesis we put some text inside a string.
 
-Strings are the places you put text in your program.  We use double quotes around text to make strings.
+Strings are the places you put text in your program.  We use double quotes around text to make strings.  Strings are how we make text to show to the user.
 
 Every command in our program ends with a semicolon.
+
+When we put things in parenthesis like this, that's calling a function.
 
 
 Greeter
 -------
 
-TODO: Explain variables, prompts, and string concatenation
-
-Greeter: Ask the user their name, then use another pop-up to say "Hi <name>!"
+Let's make a greeter program. This program will ask the user their name, then say hi to them.
 
 Example code:
 
@@ -44,6 +44,14 @@ Example code:
 var name = prompt("What is your name?");
 alert("Hi " + name + "!");
 ```
+
+This `prompt` function makes a pop up box that says something and allows the user to enter some text.
+
+The `prompt` function returns the text the user entered.  We can capture this text by putting it in a variable.
+
+We can define a variable with `var` and the name of the variable.  We can put the `prompt` function call on the other side of an equal sign to capture value into this variable.
+
+To use this variable we type its name.  We can put the text inside our variable next to other text by using a `+` sign.  The `+` sign performs string concatenation, which is just a fancy way of saying it puts strings next to each other.
 
 
 Madlibs Of the Amazon
