@@ -50,8 +50,8 @@ Magic 8 Ball
 ------------
 
 ```js
-// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * (4 - 0));"
-var random = Math.floor(Math.random() * (4 - 0));
+// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * 4);"
+var random = Math.floor(Math.random() * 4);
 
 // 2. Print out this variable
 alert(random);

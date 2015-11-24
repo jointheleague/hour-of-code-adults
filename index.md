@@ -57,8 +57,6 @@ To use this variable we type its name.  We can put the text inside our variable 
 Madlibs Of the Amazon
 ---------------------
 
-If less than 30 minutes into workshop, do madlibs. Otherwise, skip and do world domination next.
-
 Recipe:
 
 ```js
@@ -90,9 +88,25 @@ Recipe:
 World Domination
 ----------------
 
-TODO: Explain if/else
+**Teacher note**: If less than 30 minutes remaining, do world domination. Otherwise, skip this one.
 
-TODO: Show how to generate a random number
+Here's a program that asks the user for their name and does one of two things:
+
+1. If the name is `Trey`, an alert will say that we have the same name.
+2. If the name is not `Trey`, an alert will greet the user.
+
+```js
+var name = prompt("What is your name?");
+if (name === "Trey") {
+    alert("Hey that's my name too!");
+} else {
+    alert("Hi " + name + "!");
+}
+```
+
+The curly braces here denote a block of code.  We put curly braces after the `if` and `else` statements so JavaScript knows what it should do in each case.  JavaScript doesn't care about indentation; we just indent to make our code more readable.
+
+The thing inside the parenthesis next to our `if` statement is called a condition. We can use three equals signs to compare our `name` variable to the string `"Trey"` in the condition.  If this statement is true, the first code block (inside the curly braces) will be run, otherwise the code block after the `else` statement will be run.
 
 Recipe:
 
@@ -108,10 +122,22 @@ Recipe:
 Magic 8 Ball
 ------------
 
+How can we generate random numbers?
+
+We can generate a random number by using `Math.random()`.  This will give us a decimal number between 0 and 1.
+
+But we want a whole number between two other numbers.
+
+We can multiply our number by 4 to get a random number between 0 and 4 and then we can use the `Math.floor` function to round it so we'll get either `0`, `1`, or `3`:
+
+```js
+var random = Math.floor(Math.random() * 4);
+```
+
 Recipe:
 
 ```js
-// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * (4 - 0));"
+// 1. Make a variable that will hold a random number and put a random number into this variable using "Math.floor(Math.random() * 4);"
 
 // 2. Print out this variable
 
