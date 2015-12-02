@@ -85,10 +85,9 @@ Recipe:
 ```
 
 
-World Domination
+If Statements
 ----------------
 
-**Teacher note**: If less than 30 minutes remaining, do world domination. Otherwise, skip this one.
 
 Here's a program that asks the user for their name and does one of two things:
 
@@ -108,7 +107,10 @@ The curly braces here denote a block of code.  We put curly braces after the `if
 
 The thing inside the parenthesis next to our `if` statement is called a condition. We can use three equals signs to compare our `name` variable to the string `"Trey"` in the condition.  If this statement is true, the first code block (inside the curly braces) will be run, otherwise the code block after the `else` statement will be run.
 
-Recipe:
+**Teacher note**: If less than 30 minutes remaining, do world domination. Otherwise, skip this one.
+
+World Domination
+----------------
 
 ```js
 // 1. Ask the user if they know how to write code.
